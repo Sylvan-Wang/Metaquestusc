@@ -3,12 +3,16 @@ using UnityEngine.Events;
 
 public class FirstMonthGameplayManager : MonoBehaviour
 {
+    [Header("Configurations")]
     [SerializeField] private int itemsPlacedThreshold;
+
+    [Header("Event Triggers")]
     [SerializeField] private UnityEvent onThresholdReached;
+
     private bool thresholdReached = false;
     private int itemsPlaced = 0;
 
-    public void addItemPlaced()
+    public void AddItemPlaced()
     {
         itemsPlaced += 1;
         if (thresholdReached == false && itemsPlaced >= itemsPlacedThreshold)
@@ -19,7 +23,7 @@ public class FirstMonthGameplayManager : MonoBehaviour
         }
     }
 
-    public void removeItemPlaced()
+    public void RemoveItemPlaced()
     {
         if (itemsPlaced >= 0)
         {
