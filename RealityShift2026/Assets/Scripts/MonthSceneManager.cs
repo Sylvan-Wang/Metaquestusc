@@ -37,7 +37,7 @@ public class MonthSceneManager : MonoBehaviour
     {
         FindSun();
         ApplyLighting();
-        StartCoroutine(AutoSwitch());
+        // StartCoroutine(AutoSwitch());
     }
 
     void OnEnable()
