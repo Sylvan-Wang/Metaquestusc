@@ -2099,8 +2099,7 @@ MonoBehaviour:
   months:
   - Month1
   - Month2
-  - Month4
-  - Month6
+  - Month5
   - Month8
   timeLimit: 20
 --- !u!64 &772693002
@@ -5594,6 +5593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstMonthGameplayManager
   itemsPlacedThreshold: 3
+  timeLimit: 5
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
