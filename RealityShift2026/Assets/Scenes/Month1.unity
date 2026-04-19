@@ -5593,7 +5593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FirstMonthGameplayManager
   itemsPlacedThreshold: 3
-  timeLimit: 5
+  timeLimit: 20
   onThresholdReached:
     m_PersistentCalls:
       m_Calls:
