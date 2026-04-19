@@ -9,7 +9,7 @@ public class ChecklistManager : MonoBehaviour
     void Start()
     {
         UIManager.Instance.UpdateChecklistUI(tasks);
-        StartCoroutine(AutoCompleteTasks());
+        // StartCoroutine(AutoCompleteTasks());
     }
 
     IEnumerator AutoCompleteTasks()
