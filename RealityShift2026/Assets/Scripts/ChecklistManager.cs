@@ -25,6 +25,16 @@ public class ChecklistManager : MonoBehaviour
         }
     }
 
+    bool AreAllTasksCompleted()
+    {
+        foreach (var task in tasks)
+        {
+            if (!task.isCompleted)
+                return false;
+        }
+        return true;
+    }
+
     public void CompleteTask(string taskName)
     {
         foreach (var task in tasks)
@@ -35,6 +45,16 @@ public class ChecklistManager : MonoBehaviour
 
                 UIManager.Instance.UpdateChecklistUI(tasks);
                 Debug.Log("Completed: " + taskName);
+
+                // CHECK IF ALL DONE
+                if (AreAllTasksCompleted())
+                {
+                    Debug.Log("All tasks complete!");
+
+                    // Load next month
+                    MonthSceneManager.Instance.LoadNextMonth();
+                }
+
                 return;
             }
         }
