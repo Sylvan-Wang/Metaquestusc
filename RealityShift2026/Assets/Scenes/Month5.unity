@@ -273,7 +273,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -420,7 +420,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -920,7 +920,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -1593,7 +1593,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -2498,7 +2498,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -2970,7 +2970,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -3678,7 +3678,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -3825,7 +3825,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -4321,7 +4321,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -5036,7 +5036,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -5473,7 +5473,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -6025,7 +6025,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -6208,7 +6208,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -6636,7 +6636,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -6783,7 +6783,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -7718,7 +7718,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -8601,7 +8601,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -8940,7 +8940,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -9186,7 +9186,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -9462,7 +9462,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -9701,7 +9701,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -10225,7 +10225,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -11046,7 +11046,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -11580,7 +11580,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -11858,7 +11858,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -12041,7 +12041,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -12310,7 +12310,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -12592,7 +12592,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -12739,7 +12739,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -13162,7 +13162,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -13340,7 +13340,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -13591,65 +13591,6 @@ MonoBehaviour:
   _movementProvider: {fileID: 0}
   _handAligment: 0
   _handGrabPoses: []
---- !u!1 &715626446
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 715626448}
-  - component: {fileID: 715626447}
-  m_Layer: 0
-  m_Name: GameplayManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &715626447
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715626446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd5b653b30927ea4084b33924b0c4944, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SecondMonthGameplayManager
-  itemsDisposedThreshold: 6
-  fishFedThreshold: 0
-  emailsReadThreshold: 0
-  onItemsDisposedThresholdReached:
-    m_PersistentCalls:
-      m_Calls: []
-  onFishFedThresholdReached:
-    m_PersistentCalls:
-      m_Calls: []
-  onEmailsReadThresholdReached:
-    m_PersistentCalls:
-      m_Calls: []
-  onAllThresholdsReached:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!4 &715626448
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715626446}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &724115129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14064,7 +14005,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -14347,7 +14288,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -16161,7 +16102,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -16399,7 +16340,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -16663,7 +16604,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -16950,7 +16891,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -17128,7 +17069,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -17499,7 +17440,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -17751,7 +17692,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -18260,7 +18201,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -18407,7 +18348,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -18626,7 +18567,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -19053,7 +18994,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -20356,7 +20297,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -20901,7 +20842,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -22085,7 +22026,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -22307,7 +22248,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -23098,7 +23039,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -24480,7 +24421,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -25322,7 +25263,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -25881,7 +25822,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -26177,7 +26118,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -26334,7 +26275,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -26614,7 +26555,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -27580,7 +27521,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -27727,7 +27668,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -27947,7 +27888,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -28194,7 +28135,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -28341,7 +28282,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -28809,7 +28750,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -29121,7 +29062,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -29753,7 +29694,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -30562,7 +30503,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -31336,7 +31277,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -31708,7 +31649,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -32011,7 +31952,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -32894,7 +32835,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -33190,7 +33131,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -34120,7 +34061,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -34943,7 +34884,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -35416,7 +35357,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -35783,7 +35724,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -36258,7 +36199,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -36593,7 +36534,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -36976,7 +36917,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -37616,7 +37557,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -37763,7 +37704,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -38671,7 +38612,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -38695,6 +38636,56 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &2032863119
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2032863121}
+  - component: {fileID: 2032863120}
+  m_Layer: 0
+  m_Name: GameplayManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2032863120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032863119}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26849c28c42214a158d4a58caf42f4f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MonthSceneManager
+  months:
+  - Month2
+  - Month4
+  - Month6
+  - Month8
+  timeLimit: 60
+--- !u!4 &2032863121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2032863119}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2033944987
 GameObject:
   m_ObjectHideFlags: 0
@@ -39176,7 +39167,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -39494,7 +39485,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -40467,7 +40458,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -40918,7 +40909,7 @@ MonoBehaviour:
   OnTrashBagTriggerEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 715626447}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: SecondMonthGameplayManager, Assembly-CSharp
         m_MethodName: AddItemDisposed
         m_Mode: 1
@@ -51064,7 +51055,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 33594272}
-  - {fileID: 715626448}
   - {fileID: 733900817}
   - {fileID: 1434431000}
   - {fileID: 1775677685}
@@ -51076,3 +51066,4 @@ SceneRoots:
   - {fileID: 3892467814596747805}
   - {fileID: 7800148193713065591}
   - {fileID: 182029881}
+  - {fileID: 2032863121}

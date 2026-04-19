@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using System.Collections;
 
 public class MonthSceneManager : MonoBehaviour
 {
@@ -15,9 +14,14 @@ public class MonthSceneManager : MonoBehaviour
         "Month8"
     };
 
-    private int currentIndex = 0;
+    [Header("Timer")]
+    public float timeLimit = 60f; // seconds per month
 
-    // 🌞 Current scene's directional light (NOT persistent)
+    private float timer = 0f;
+    private int currentIndex = 0;
+    private bool isTransitioning = false;
+
+    // Directional light reference (per scene)
     private Light sun;
 
     void Awake()
@@ -37,7 +41,19 @@ public class MonthSceneManager : MonoBehaviour
     {
         FindSun();
         ApplyLighting();
-        // StartCoroutine(AutoSwitch());
+    }
+
+    void Update()
+    {
+        if (isTransitioning) return;
+
+        timer += Time.deltaTime;
+
+        if (timer >= timeLimit)
+        {
+            Debug.Log("Time ran out!");
+            LoadNextMonth();
+        }
     }
 
     void OnEnable()
@@ -52,11 +68,14 @@ public class MonthSceneManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        FindSun();        // re-find light in new scene
-        ApplyLighting();  // apply correct time of day
+        timer = 0f;              // reset timer each scene
+        isTransitioning = false; // allow next transition
+
+        FindSun();
+        ApplyLighting();
     }
 
-    // 🔍 Find directional light in current scene
+    // Find directional light in scene
     void FindSun()
     {
         Light[] lights = FindObjectsOfType<Light>();
@@ -73,8 +92,41 @@ public class MonthSceneManager : MonoBehaviour
         Debug.LogWarning("No Directional Light found in scene!");
     }
 
+    // Apply time-of-day lighting
+    void ApplyLighting()
+    {
+        float[] sunAngles = {
+            60f,   // Month 1 → morning
+            60f,   // Month 2 → midday
+            120f,  // Month 4 → afternoon
+            170f,  // Month 6 → sunset
+            210f   // Month 8 → night
+        };
+
+        Color[] sunColors = {
+            new Color(1f, 0.95f, 0.8f),  // morning
+            Color.white,                 // midday
+            new Color(1f, 0.7f, 0.5f),   // afternoon
+            new Color(1f, 0.5f, 0.3f),   // sunset
+            new Color(0.3f, 0.35f, 0.6f) // night
+        };
+
+        if (sun != null && currentIndex < sunAngles.Length)
+        {
+            sun.transform.rotation = Quaternion.Euler(sunAngles[currentIndex], 0f, 0f);
+            sun.color = sunColors[currentIndex];
+        }
+
+        Debug.Log("Time of day set for month: " + currentIndex);
+    }
+
+    // Scene switching
     public void LoadNextMonth()
     {
+        if (isTransitioning) return;
+
+        isTransitioning = true;
+
         currentIndex++;
 
         if (currentIndex >= months.Length)
@@ -91,48 +143,13 @@ public class MonthSceneManager : MonoBehaviour
         if (index < 0 || index >= months.Length) return;
 
         currentIndex = index;
+        isTransitioning = true;
+
         SceneManager.LoadScene(months[currentIndex]);
     }
 
     public int GetCurrentMonthIndex()
     {
         return currentIndex;
-    }
-
-    // Apply time-of-day based on month
-    void ApplyLighting()
-    {
-        float[] sunAngles = {
-            60f,   // Month 1 → morning
-            60f,   // Month 2 → midday
-            120f,  // Month 4 → afternoon
-            170f,  // Month 6 → sunset
-            210f   // Month 8 → night
-        };
-
-        Color[] sunColors = {
-            new Color(1f, 0.95f, 0.8f),  // warm morning
-            Color.white,                 // midday
-            new Color(1f, 0.7f, 0.5f),   // afternoon
-            new Color(1f, 0.5f, 0.3f),   // sunset
-            new Color(0.3f, 0.35f, 0.6f) // night blue
-        };
-
-        if (sun != null && currentIndex < sunAngles.Length)
-        {
-            sun.transform.rotation = Quaternion.Euler(sunAngles[currentIndex], 0f, 0f);
-            sun.color = sunColors[currentIndex];
-        }
-
-        Debug.Log("Time of day set for month: " + currentIndex);
-    }
-
-    IEnumerator AutoSwitch()
-    {
-        while (currentIndex < months.Length - 1)
-        {
-            yield return new WaitForSecondsRealtime(5f);
-            LoadNextMonth();
-        }
     }
 }
