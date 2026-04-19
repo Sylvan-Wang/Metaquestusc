@@ -6060,7 +6060,7 @@ MonoBehaviour:
   - Month4
   - Month6
   - Month8
-  timeLimit: 60
+  timeLimit: 20
 --- !u!1 &724115129
 GameObject:
   m_ObjectHideFlags: 0
