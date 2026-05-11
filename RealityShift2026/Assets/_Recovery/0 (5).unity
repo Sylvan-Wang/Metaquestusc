@@ -2037,7 +2037,7 @@ MonoBehaviour:
   - Month2
   - Month5
   - Month8
-  timeLimit: 120
+  timeLimit: 20
   timerText: {fileID: 1565346348}
 --- !u!1 &829843328
 GameObject:

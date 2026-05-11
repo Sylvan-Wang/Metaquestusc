@@ -52,7 +52,7 @@ public class ChecklistManager : MonoBehaviour
                     Debug.Log("All tasks complete!");
 
                     // Load next month
-                    MonthSceneManager.Instance.LoadNextMonth();
+                    // MonthSceneManager.Instance.LoadNextMonth();
                 }
 
                 return;

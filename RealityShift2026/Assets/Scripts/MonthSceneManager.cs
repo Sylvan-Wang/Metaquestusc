@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MonthSceneManager : MonoBehaviour
 {
@@ -15,13 +16,15 @@ public class MonthSceneManager : MonoBehaviour
     };
 
     [Header("Timer")]
-    public float timeLimit = 60f; // seconds per month
+    public float timeLimit = 60f;
+
+    [Header("UI")]
+    public TextMeshProUGUI timerText;
 
     private float timer = 0f;
     private int currentIndex = 0;
     private bool isTransitioning = false;
 
-    // Directional light reference (per scene)
     private Light sun;
 
     void Awake()
@@ -41,6 +44,7 @@ public class MonthSceneManager : MonoBehaviour
     {
         FindSun();
         ApplyLighting();
+        FindTimerText();
     }
 
     void Update()
@@ -48,6 +52,10 @@ public class MonthSceneManager : MonoBehaviour
         if (isTransitioning) return;
 
         timer += Time.deltaTime;
+
+        float remaining = Mathf.Max(0, timeLimit - timer);
+
+        UpdateTimerUI(remaining);
 
         if (timer >= timeLimit)
         {
@@ -68,14 +76,59 @@ public class MonthSceneManager : MonoBehaviour
 
     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        timer = 0f;              // reset timer each scene
-        isTransitioning = false; // allow next transition
+        timer = 0f;
+        isTransitioning = false;
 
         FindSun();
         ApplyLighting();
+
+        FindTimerText();
     }
 
-    // Find directional light in scene
+    void FindTimerText()
+    {
+        GameObject timerObj =
+            GameObject.FindGameObjectWithTag("Timer");
+
+        if (timerObj != null)
+        {
+            timerText =
+                timerObj.GetComponent<TextMeshProUGUI>();
+
+            // if TMP is on a child object
+            if (timerText == null)
+            {
+                timerText =
+                    timerObj.GetComponentInChildren<TextMeshProUGUI>();
+            }
+        }
+
+        if (timerText == null)
+        {
+            Debug.LogWarning("Timer UI not found!");
+        }
+    }
+
+    void UpdateTimerUI(float timeRemaining)
+    {
+        if (timerText == null) return;
+
+        int minutes = Mathf.FloorToInt(timeRemaining / 60f);
+        int seconds = Mathf.FloorToInt(timeRemaining % 60f);
+
+        if (currentIndex >= 4)
+        {
+            timerText.text = "LOST TRACK OF TIME";
+        }
+        else
+        {
+            timerText.text =
+                minutes.ToString("00") +
+                ":" +
+                seconds.ToString("00");
+        }
+    }
+
     void FindSun()
     {
         Light[] lights = FindObjectsOfType<Light>();
@@ -92,23 +145,22 @@ public class MonthSceneManager : MonoBehaviour
         Debug.LogWarning("No Directional Light found in scene!");
     }
 
-    // Apply time-of-day lighting
     void ApplyLighting()
     {
         float[] sunAngles = {
-            60f,   // Month 1 → morning
-            60f,   // Month 2 → midday
-            120f,  // Month 4 → afternoon
-            170f,  // Month 6 → sunset
-            210f   // Month 8 → night
+            60f,
+            60f,
+            120f,
+            170f,
+            210f
         };
 
         Color[] sunColors = {
-            new Color(1f, 0.95f, 0.8f),  // morning
-            Color.white,                 // midday
-            new Color(1f, 0.7f, 0.5f),   // afternoon
-            new Color(1f, 0.5f, 0.3f),   // sunset
-            new Color(0.3f, 0.35f, 0.6f) // night
+            new Color(1f, 0.95f, 0.8f),
+            Color.white,
+            new Color(1f, 0.7f, 0.5f),
+            new Color(1f, 0.5f, 0.3f),
+            new Color(0.3f, 0.35f, 0.6f)
         };
 
         if (sun != null && currentIndex < sunAngles.Length)
@@ -120,7 +172,6 @@ public class MonthSceneManager : MonoBehaviour
         Debug.Log("Time of day set for month: " + currentIndex);
     }
 
-    // Scene switching
     public void LoadNextMonth()
     {
         if (isTransitioning) return;

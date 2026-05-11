@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Water
+  - Timer
   layers:
   - Default
   - TransparentFX
